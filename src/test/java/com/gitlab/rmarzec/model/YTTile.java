@@ -28,4 +28,8 @@ public class YTTile {
     public void setLength(String length) {
         this.length = length;
     }
+
+    public void printResult() {
+        System.out.println("Tytuł = \"" + title + "\"" + "\nCzas trwania = " + length + "\n");
+    }
 }
